@@ -6,13 +6,13 @@ export const Navbar: FunctionComponent<{}> = () => (
           <p className="">icon</p>
         </div>
         <nav className="flex space-between mx-r">
-          <a className="text-xl" href="#">
+          <a className="text-xl px-4" href="#">
             som link
           </a>
-          <a className="text-xl" href="#">
+          <a className="text-xl px-4" href="#">
             otter link
           </a>
-          <a className="text-xl top-0 right-0" href="#">
+          <a className="text-xl px-4" href="#">
             moar link
           </a>
         </nav>
