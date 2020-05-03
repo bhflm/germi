@@ -13,9 +13,9 @@ interface Props {
 const PostTemplate: NextPage<Props> = ({ title, tags, content }) => (
   <div>
   <article>
-    <h1>{title ? title : 'NO TITLE'}</h1>
+    <h1>{title}</h1>
     <span>
-      {content ? content : 'NO CONTENT FOUND'}
+      {content}
     </span>
   </article>
   </div>
@@ -34,5 +34,10 @@ PostTemplate.getInitialProps = async ({ query }) => {
   return responseData;
 };
 
+PostTemplate.defaultProps = {
+  title: 'foo',
+  tags: ['foo','bar'],
+  content: 'lorem ipsum'
+};
 
 export default PostTemplate;
