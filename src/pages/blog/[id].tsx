@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 import Head from 'next/head'
 import { Layout } from '../../components/Layout';
-import db from '../../clients/firebase';
+import loadFirebaseClient from '../../clients/firebase';
 
 interface Props {
   title?: string;
@@ -13,21 +13,25 @@ interface Props {
 const PostTemplate: NextPage<Props> = ({ title, tags, content }) => (
   <div>
   <article>
-    <h1>{title}</h1>
+    <h1>{title ? title : 'NO TITLE'}</h1>
     <span>
-      {content}
+      {content ? content : 'NO CONTENT FOUND'}
     </span>
   </article>
   </div>
 );
 
 PostTemplate.getInitialProps = async ({ query }) => {
-  let resData = {};
-  const dbRef = db.collection('posts');
-  await dbRef.doc('first-post').get().then( snapshot => {
-    resData = snapshot.data();
-  })
-  return resData;
+  let responseData = {};
+  const postId = query?.id || '';
+  const dbRef = await loadFirebaseClient();
+  const querySnapshot = await dbRef.collection('posts');
+  await querySnapshot.doc(`${postId}`).get()
+        .then((snapshot) => {
+          responseData = snapshot.data();
+        }).catch(Promise.reject);
+  console.log('response data; ', responseData);
+  return responseData;
 };
 
 

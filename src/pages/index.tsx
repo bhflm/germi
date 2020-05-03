@@ -21,10 +21,6 @@ const Home: NextPage<Props> = query => (
 
 Home.getInitialProps = async ({ query }) => {
   let resData = {};
-  const dbRef = db.collection('posts');
-  await dbRef.doc('first-post').get().then( snapshot => {
-    resData = snapshot.data();
-  })
   return resData;
 };
 
