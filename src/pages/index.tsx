@@ -12,7 +12,6 @@ interface Props {
 const Home: NextPage<Props> = query => (
   <>
   <Head>
-    {console.log('RES DATA: ', query)}
     <title>grmi notes</title>
   </Head>
   <Navbar/>
@@ -21,13 +20,11 @@ const Home: NextPage<Props> = query => (
 );
 
 Home.getInitialProps = async ({ query }) => {
-  console.log('QUERY: ', query);
   let resData = {};
   const dbRef = db.collection('posts');
-  await dbRef.doc('posts').get().then( snapshot => {
+  await dbRef.doc('first-post').get().then( snapshot => {
     resData = snapshot.data();
   })
-
   return resData;
 };
 
