@@ -27,7 +27,6 @@ PostTemplate.getInitialProps = async ({ query }) => {
   await dbRef.doc('first-post').get().then( snapshot => {
     resData = snapshot.data();
   })
-  console.log('RES DATA; ', resData);
   return resData;
 };
 
