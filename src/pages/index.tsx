@@ -10,17 +10,19 @@ interface Post {
 };
 
 interface HomeProps {
-  posts?: Array<Post>[];
+  posts?: Post[];
 }
 
-const Home: NextPage<HomeProps> = (data) => {
-  const posts = data as Array<any> // dont tell anyone i did this
+const Home: NextPage<HomeProps> = (posts) => {
+  // dirty hack because im still trying to figure out wtf is going on here
+  const postsData = Object.values(posts);
+  console.log('posts data; ', postsData.map(each => console.log(each.name)));
   return (
     <>
     <Head>
       <title>grmi notes</title>
     </Head>
-      {posts.map(each =>(<p>{each.title}</p>))}
+      {/* {postsData.map(each => (<p>{each.name}</p>))} */}
     <Navbar/>
     <Layout />
     </>
@@ -35,12 +37,11 @@ Home.getInitialProps = async () => {
           .then((snapshot) => {
             snapshot.forEach(snap => {
               const data = snap.data();
-              console.log('DATA; ', data);
-              const postInfo = { name: data.name, ref: data.ref };
+              const postInfo = { name: data.title };
               responseData.push(postInfo); 
             })
           }).catch(Promise.reject);
-    return responseData as unknown; // i feel dirty and i need to solve this because i can't type good enough
+    return responseData as any; // i feel dirty and i need to solve this because i can't type good enough
 };
 
 
