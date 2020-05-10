@@ -7,12 +7,6 @@ export const Navbar: FunctionComponent<{}> = () => (
           <p className="pt-6 text-xs font-thin">germi</p>
         </div>
         <nav className="flex space-between mx-r pt-2">
-          <a className="font-black text-xl px-4 pt-1" href="/archive">
-            archive
-          </a>
-          <a className="font-black text-xl px-4 pt-1" href="/about">
-            about
-          </a>
           <a href="https://github.com/bhflm" target="_blank">
             <img className="h-8 pt-1 pb-1 px-4" src="/github.svg" alt="github logo"/>
           </a>

@@ -10,19 +10,16 @@ interface Post {
 };
 
 interface HomeProps {
-  posts?: Post[];
+  posts: Post[];
 }
 
-const Home: NextPage<HomeProps> = (posts) => {
-  // dirty hack because im still trying to figure out wtf is going on here
-  const postsData = Object.values(posts);
-  console.log('posts data; ', postsData.map(each => console.log(each.name)));
+const Home: NextPage<HomeProps> = (data) => {
+  const posts = Object.values(data);
   return (
     <>
     <Head>
       <title>grmi notes</title>
     </Head>
-      {/* {postsData.map(each => (<p>{each.name}</p>))} */}
     <Navbar/>
     <Layout />
     </>
@@ -30,18 +27,14 @@ const Home: NextPage<HomeProps> = (posts) => {
 };
 
 Home.getInitialProps = async () => {
-    let responseData = [];
+  try {
     const dbRef = await loadFirebaseClient();
-    const querySnapshot = await dbRef.collection('home');
-    await querySnapshot.get()
-          .then((snapshot) => {
-            snapshot.forEach(snap => {
-              const data = snap.data();
-              const postInfo = { name: data.title };
-              responseData.push(postInfo); 
-            })
-          }).catch(Promise.reject);
-    return responseData as any; // i feel dirty and i need to solve this because i can't type good enough
+    const querySnapshots = await dbRef.collection('home').get();
+    const responseData = querySnapshots.docs.map(snap => snap.data().title);
+    return responseData as any;
+  } catch (err) {
+    console.error(err);
+  }
 };
 
 
