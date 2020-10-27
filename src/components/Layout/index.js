@@ -1,6 +1,6 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 
-export const Layout: FunctionComponent<{}> = () => (
+export const Layout = () => (
     <div>
       <h1 className="font-semibold ml-20 pt-20 text-left h-8 black">
         Hi there,

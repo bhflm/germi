@@ -3,14 +3,8 @@ import Head from 'next/head'
 import { Layout } from '../../components/Layout';
 import loadFirebaseClient from '../../clients/firebase';
 
-interface Props {
-  title?: string;
-  tags?: string[];
-  content?: string;
-};
 
-
-const PostTemplate: NextPage<Props> = ({ title, tags, content }) => (
+const PostTemplate = ({ title, tags, content }) => (
   <div>
   <article>
     <h1>{title}</h1>

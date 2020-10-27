@@ -1,6 +1,6 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 
-export const Navbar: FunctionComponent<{}> = () => (
+export const Navbar = () => (
     <div className="flex px-4 justify-between flex-wrap border-b-2 border-black">
         <div className="flex text-xl px-2">
           <img className="h-12 pt-2 pb-2" src="/mountain.svg" alt="mountain"/>
