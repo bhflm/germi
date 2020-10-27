@@ -22,13 +22,13 @@ const Home = () => {
           Currently working as a remote contractor for <a className="font-semibold" target="_blank" href="https://grow.com">Grow</a>, an awesome Utah based BI company.
           <br></br>
           <br></br>
-          Oh, yes, I do not have good taste for design at all, I'm working on improving that (really).
+          Oh, yes, I do not have good taste for design at all, I'm working on improving that (for real).
           <br></br>
           <br></br>
           But I'm interested in backend, security, and blockchain stuff, (I find the latter pretty awesome tbh).
           <br></br>
           <br></br>
-          Feel free to reach me <a className="font-semibold" href="mailto:germanbonin@gmail.com">here</a> anytime.
+          If you want to talk, feel free to reach me <a className="font-semibold" href="mailto:germanbonin@gmail.com">here</a> anytime.
         </span>
       </div>
     </div>
