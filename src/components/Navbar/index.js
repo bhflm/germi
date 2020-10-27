@@ -4,7 +4,6 @@ export const Navbar = () => (
     <div className="flex px-4 justify-between flex-wrap border-b-2 border-black">
         <div className="flex text-xl px-2">
           <img className="h-12 pt-2 pb-2" src="/mountain.svg" alt="mountain"/>
-          <p className="pt-6 text-xs font-thin">germi</p>
         </div>
         <nav className="flex space-between mx-r pt-2">
           <a href="https://github.com/bhflm" target="_blank">
