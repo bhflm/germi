@@ -17,7 +17,7 @@ const Home = () => {
           I'm a software developer from Buenos Aires, Argentina.
           <br></br>
           <br></br>
-          Currently working as a remote contractor for <a className="font-semibold" target="_blank" href="https://grow.com">Grow</a>.
+          Currently working as a backend engineer, fully remote.
           <br></br>
           <br></br>
           Oh, yes, I do not have good taste for design at all, I'm working on improving that (for real).
