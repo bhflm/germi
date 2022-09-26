@@ -5,28 +5,28 @@ const Home = () => {
   return (
     <>
     <Head>
-      <title>grmi notes</title>
+      <title>germi notes</title>
     </Head>
     <Navbar/>
     <div>
       <h1 className="font-semibold ml-20 pt-20 text-left h-8 black">
-        Hey there,
+        Hey there!,
       </h1>
       <div className="font-small mt-16 ml-20 text-left h-9 black">
         <span>
-          I'm a software developer from Buenos Aires, Argentina.
+          I'm a software engineer from Argentina. 
           <br></br>
           <br></br>
-          Currently working as a backend engineer, fully remote.
+          Currently doing back end stuff @ <a className="font-semibold" href="https://fleek.co">Fleek ⚡</a>
           <br></br>
           <br></br>
-          Oh, yes, I do not have good taste for design at all, I'm working on improving that (for real).
+          I find blockchain technology pretty awesome!, I'm a huge decentralization and privacy enthusiast. 
           <br></br>
           <br></br>
-          But I'm interested in backend, security, and blockchain stuff, (I find the latter pretty awesome tbh).
+          Lately I've been deep diving into the weeds of Rust.
           <br></br>
           <br></br>
-          If you want to talk, feel free to reach me <a className="font-semibold" href="mailto:germanbonin@gmail.com">here</a> anytime.
+          If you want to chat!, feel free to reach me <a className="font-semibold" href="mailto:germanbonin@gmail.com">here</a> anytime.
         </span>
       </div>
     </div>
