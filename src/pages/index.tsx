@@ -17,13 +17,10 @@ const Home = () => {
           I'm a software engineer from Argentina. 
           <br></br>
           <br></br>
-          Currently doing back end stuff @ <a className="font-semibold" href="https://fleek.co">Fleek ⚡</a>
+          I'm a huge decentralization and privacy enthusiast. All the things related to scaling systems and infosec fan. 
           <br></br>
           <br></br>
-          I find blockchain technology pretty awesome!, I'm a huge decentralization and privacy enthusiast. 
-          <br></br>
-          <br></br>
-          Lately I've been deep diving into the weeds of Rust.
+          Lately I've been experimenting with AI and doing some Go for fun.
           <br></br>
           <br></br>
           If you want to chat!, feel free to reach me <a className="font-semibold" href="mailto:germanbonin@gmail.com">here</a> anytime.
