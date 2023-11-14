@@ -2,27 +2,17 @@
     <channel>
         <title><![CDATA[Your Name]]></title>
         <description><![CDATA[Your Name]]></description>
-        <link>https://yoursite.com</link>
+        <link>https://germi.xyz</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Nov 2023 16:54:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Nov 2023 17:34:29 GMT</lastBuildDate>
         <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Markdown Examples]]></title>
-            <description><![CDATA[View examples of all possible Markdown options.]]></description>
-            <link>/posts/markdown</link>
-            <guid isPermaLink="true">/posts/markdown</guid>
+            <title><![CDATA[1 - chapa y pintura]]></title>
+            <link>/posts/many-to-come</link>
+            <guid isPermaLink="true">/posts/many-to-come</guid>
+            <category><![CDATA[life]]></category>
             <category><![CDATA[web development]]></category>
-            <dc:creator><![CDATA[You]]></dc:creator>
-            <pubDate>Fri, 19 Mar 2021 03:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Next.js Pages]]></title>
-            <description><![CDATA[Learn more about Next.js pages.]]></description>
-            <link>/posts/pages</link>
-            <guid isPermaLink="true">/posts/pages</guid>
-            <category><![CDATA[web development]]></category>
-            <dc:creator><![CDATA[You]]></dc:creator>
-            <pubDate>Thu, 18 Mar 2021 03:00:00 GMT</pubDate>
+            <pubDate>Tue, 14 Nov 2023 03:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
