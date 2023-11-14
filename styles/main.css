@@ -63,3 +63,13 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.github-logo {
+  height: 50px; /* Adjust the size as needed */
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 10px; /* Adjust the padding as needed */
+  padding-right: 10px; /* Adjust the padding as needed */
+  filter: invert(100%) brightness(200%);
+}

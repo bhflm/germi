@@ -23,6 +23,9 @@ export default function Document() {
         <meta name="twitter:image" content={meta.image} />
       </Head>
       <body>
+          <a href="https://github.com/bhflm" target="_blank">
+            <img className="github-logo" src="/github.svg" alt="github logo"/>
+          </a>
         <Main />
         <NextScript />
       </body>
