@@ -21,23 +21,23 @@ So thats why I've made a resume enhancer, I'm going to speak from my experience,
 
 So, why not, GPTs hype train to the rescue. 
 
-![Resume Enhancer](images/1-welcome-resume-enhancer.jpeg)
+![Resume Enhancer](./images/1-welcome-resume-enhancer.jpeg)
 
 Resume Enhancer is tuned to give you feedback regarding your resume, and even more, look for the same skills that you share within that job description, make them stand out on your resume, and shine among the candidate pool. This **will not guarantee you landing the job, but for sure will give you more chances** whenever the recruiters are filtering candidates!. Remember, **its better to have a false positive rather than a missed match.** 
 
 So to start, you should share your resume with Resume Enhancer, and the job description you're looking to apply for. 
 
-![Upload CV](images/1-upload-cv.jpeg)
+![Upload CV](./images/1-upload-cv.jpeg)
 
 With the resume uploaded, you just need to share a url with a job description to apply for, GPT will do the rest. 
 
-[INSERT PIC]
+![Receive feedback](./images/1-output.jpeg)
 
-Done!, thats it, now, it will retrieve some feedback. And suggest the things that you need to emphasis on. 
+Think this as a diff preview of some suggestions of what you should highlight. 
 
-[Insert pic with emphasis and changes]
+It will keep on adding suggestions until you're happy with it. 
 
-Thats it!.
+As cherry on the top, it can edit your current resume to add the key points made by the GPT. 
 
 Creating a GPT is simple, and cases are infinite, I'm super excited for whats to come. 
 
