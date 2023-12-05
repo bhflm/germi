@@ -5,7 +5,7 @@ description: a small tech talk and things that can go wrong will go wrong
 tag: talks, web development
 ---
 
-
+# About the time I gave a workshop and everything went wrong
 
 ![Talk at ethdenver](./images/2-a.JPG)
 
@@ -21,7 +21,7 @@ I was given the chance to present this new platform on the EncodeClub Pit House 
 
 So I was mostly working within giving this presentation for the last week and a half, since it was my first _formal_ and _technical_ talk/workshop (you name it), I'd say I was kinda nervous. 
 
-The presentation was simple enough, a little preview of how to deploy a site onto the decentralized IPFS protocol, what a CID is, how to visit your site through different gateways, nothing too fancy but really functional at the same time. 
+The presentation was simple enough, a little preview of how to deploy a site onto the decentralized IPFS protocol, what a CID is, how to visit your site through different gateways, nothing too fancy but really functional at the same time.
 
 ![Some wallet login things](./images/2-c.JPG)
 
