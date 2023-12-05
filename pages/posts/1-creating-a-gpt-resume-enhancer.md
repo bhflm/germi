@@ -1,6 +1,6 @@
 ---
 title: 2 - GPT Resume Enhancer
-date: 2023/11/14
+date: 2023/11/20
 description:
 tag: AI, OpenAI, GPT, Productivity
 ---
