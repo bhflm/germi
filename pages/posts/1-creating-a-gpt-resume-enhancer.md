@@ -1,7 +1,7 @@
 ---
 title: 2 - GPT Resume Enhancer
 date: 2023/11/20
-description:
+description: some little gpt leverage for getting tips on your jobhunting and resume making
 tag: AI, OpenAI, GPT, Productivity
 ---
 

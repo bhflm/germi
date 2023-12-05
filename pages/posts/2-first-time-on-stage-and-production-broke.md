@@ -1,7 +1,7 @@
 ---
-title: 2 - about my first time on stage and prod broke 1 min before
+title: 3 - about my first time on stage and prod broke 1 min before
 date: 2023/12/5
-description:
+description: a small tech talk and things that can go wrong will go wrong
 tag: talks, web development
 ---
 

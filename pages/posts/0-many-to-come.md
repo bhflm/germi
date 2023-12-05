@@ -1,7 +1,7 @@
 ---
 title: 1 - chapa y pintura
 date: 2023/11/14
-description:
+description: hello world
 tag: life, web development
 ---
 
