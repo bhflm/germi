@@ -1,3 +1,10 @@
+---
+title: 4 - AI Interviewing
+date: 2024/03/17
+description: A hot take onto AI Interviewing and things
+tag: ai, interviewing
+---
+
 # AI Interviewing
 
 I've been taking interviews lately, a lot. Among being ghosted, failing a couple of tech interviews or just simply not feeling quite to match the expected culture on the other side, there's something that did catch my attention. AI Interviewing. Yeah, that's it. 
